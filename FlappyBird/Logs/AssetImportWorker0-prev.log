@@ -15,11 +15,11 @@ C:/Users/DELL/Documents/GitHub/FlappyBirdUnity/FlappyBird
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-60764
+58815
 Successfully changed project path to: C:/Users/DELL/Documents/GitHub/FlappyBirdUnity/FlappyBird
 C:/Users/DELL/Documents/GitHub/FlappyBirdUnity/FlappyBird
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 34.94 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 42.31 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.9f1 (108be757e447)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.9f1/Editor/Data/Resources/UnitySubsystems
@@ -35,1099 +35,163 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.9f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.9f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.9f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56988
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56456
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001693 seconds.
+Registered in 0.013655 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 58.92 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 138.93 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.676 seconds
+- Completed reload, in  7.825 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.000862 seconds.
+Registered in 0.002711 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 39.26 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 35.52 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.988 seconds
+- Completed reload, in  1.313 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 0.35 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.36 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1812 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 85.0 MB.
 System memory in use after: 85.0 MB.
 
 Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 2255.
-Total: 1.959600 ms (FindLiveObjects: 0.222700 ms CreateObjectMapping: 0.084500 ms MarkObjects: 1.541000 ms  DeleteObjects: 0.110300 ms)
-
-========================================================================
-Received Import Request.
-  path: Assets/Scripts/Pipes.cs
-  artifactKey: Guid(f3dc0bbb0325b404f8fc87b69ca66cfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Pipes.cs using Guid(f3dc0bbb0325b404f8fc87b69ca66cfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f80f29ebaf446398ed6b0c4c6ceec7db') in 0.029800 seconds
-  Import took 0.032636 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 18.911494 seconds.
-  path: Assets/Prefabs/Pipes.prefab
-  artifactKey: Guid(baea699a91221fe45bf90473d326b801) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Pipes.prefab using Guid(baea699a91221fe45bf90473d326b801) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd98ee977b6f61113c4fc72a97d0190d2') in 0.076598 seconds
-  Import took 0.079266 seconds .
+Total: 2.099700 ms (FindLiveObjects: 0.242500 ms CreateObjectMapping: 0.101800 ms MarkObjects: 1.637900 ms  DeleteObjects: 0.116400 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.000836 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.32 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.803 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.32 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1807 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 88.1 MB.
-System memory in use after: 88.1 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2266.
-Total: 1.705100 ms (FindLiveObjects: 0.184400 ms CreateObjectMapping: 0.065800 ms MarkObjects: 1.351300 ms  DeleteObjects: 0.102800 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 32.667254 seconds.
-  path: Assets/Scripts/Pipes.cs
-  artifactKey: Guid(f3dc0bbb0325b404f8fc87b69ca66cfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Pipes.cs using Guid(f3dc0bbb0325b404f8fc87b69ca66cfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b36093cd229e03150ab9f58b3032554') in 0.004145 seconds
-  Import took 0.006520 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000823 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.34 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.868 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.35 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1807 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 88.1 MB.
-System memory in use after: 88.1 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2270.
-Total: 2.646600 ms (FindLiveObjects: 0.309000 ms CreateObjectMapping: 0.101000 ms MarkObjects: 2.115400 ms  DeleteObjects: 0.119700 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 547.498866 seconds.
-  path: Assets/Scripts/Pipes.cs
-  artifactKey: Guid(f3dc0bbb0325b404f8fc87b69ca66cfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Pipes.cs using Guid(f3dc0bbb0325b404f8fc87b69ca66cfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001070 seconds
-  ERROR: Build asset version error: assets/scripts/pipes.cs in SourceAssetDB has modification time of '2022-11-29T15:33:59.7452233Z' while content on disk has modification time of '2022-11-29T15:34:59.3171226Z'
-  Import took 0.003153 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.047178 seconds.
-  path: Assets/Scripts/Pipes.cs
-  artifactKey: Guid(f3dc0bbb0325b404f8fc87b69ca66cfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Pipes.cs using Guid(f3dc0bbb0325b404f8fc87b69ca66cfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000352 seconds
-  ERROR: Build asset version error: assets/scripts/pipes.cs in SourceAssetDB has modification time of '2022-11-29T15:33:59.7452233Z' while content on disk has modification time of '2022-11-29T15:34:59.3171226Z'
-  Import took 0.004573 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.015624 seconds.
-  path: Assets/Scripts/Pipes.cs
-  artifactKey: Guid(f3dc0bbb0325b404f8fc87b69ca66cfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Pipes.cs using Guid(f3dc0bbb0325b404f8fc87b69ca66cfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000318 seconds
-  ERROR: Build asset version error: assets/scripts/pipes.cs in SourceAssetDB has modification time of '2022-11-29T15:33:59.7452233Z' while content on disk has modification time of '2022-11-29T15:34:59.3171226Z'
-  Import took 0.003370 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.013895 seconds.
-  path: Assets/Scripts/Pipes.cs
-  artifactKey: Guid(f3dc0bbb0325b404f8fc87b69ca66cfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Pipes.cs using Guid(f3dc0bbb0325b404f8fc87b69ca66cfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000267 seconds
-  ERROR: Build asset version error: assets/scripts/pipes.cs in SourceAssetDB has modification time of '2022-11-29T15:33:59.7452233Z' while content on disk has modification time of '2022-11-29T15:34:59.3171226Z'
-  Import took 0.003209 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.015249 seconds.
-  path: Assets/Scripts/Pipes.cs
-  artifactKey: Guid(f3dc0bbb0325b404f8fc87b69ca66cfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Pipes.cs using Guid(f3dc0bbb0325b404f8fc87b69ca66cfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000269 seconds
-  ERROR: Build asset version error: assets/scripts/pipes.cs in SourceAssetDB has modification time of '2022-11-29T15:33:59.7452233Z' while content on disk has modification time of '2022-11-29T15:34:59.3171226Z'
-  Import took 0.003041 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.013660 seconds.
-  path: Assets/Scripts/Pipes.cs
-  artifactKey: Guid(f3dc0bbb0325b404f8fc87b69ca66cfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Pipes.cs using Guid(f3dc0bbb0325b404f8fc87b69ca66cfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000286 seconds
-  ERROR: Build asset version error: assets/scripts/pipes.cs in SourceAssetDB has modification time of '2022-11-29T15:33:59.7452233Z' while content on disk has modification time of '2022-11-29T15:34:59.3171226Z'
-  Import took 0.003012 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.015161 seconds.
-  path: Assets/Scripts/Pipes.cs
-  artifactKey: Guid(f3dc0bbb0325b404f8fc87b69ca66cfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Pipes.cs using Guid(f3dc0bbb0325b404f8fc87b69ca66cfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000422 seconds
-  ERROR: Build asset version error: assets/scripts/pipes.cs in SourceAssetDB has modification time of '2022-11-29T15:33:59.7452233Z' while content on disk has modification time of '2022-11-29T15:34:59.3171226Z'
-  Import took 0.003298 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.017046 seconds.
-  path: Assets/Scripts/Pipes.cs
-  artifactKey: Guid(f3dc0bbb0325b404f8fc87b69ca66cfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Pipes.cs using Guid(f3dc0bbb0325b404f8fc87b69ca66cfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000287 seconds
-  ERROR: Build asset version error: assets/scripts/pipes.cs in SourceAssetDB has modification time of '2022-11-29T15:33:59.7452233Z' while content on disk has modification time of '2022-11-29T15:34:59.3171226Z'
-  Import took 0.003301 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.028009 seconds.
-  path: Assets/Scripts/Pipes.cs
-  artifactKey: Guid(f3dc0bbb0325b404f8fc87b69ca66cfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Pipes.cs using Guid(f3dc0bbb0325b404f8fc87b69ca66cfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000299 seconds
-  ERROR: Build asset version error: assets/scripts/pipes.cs in SourceAssetDB has modification time of '2022-11-29T15:33:59.7452233Z' while content on disk has modification time of '2022-11-29T15:34:59.3171226Z'
-  Import took 0.003234 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.014556 seconds.
-  path: Assets/Scripts/Pipes.cs
-  artifactKey: Guid(f3dc0bbb0325b404f8fc87b69ca66cfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Pipes.cs using Guid(f3dc0bbb0325b404f8fc87b69ca66cfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000292 seconds
-  ERROR: Build asset version error: assets/scripts/pipes.cs in SourceAssetDB has modification time of '2022-11-29T15:33:59.7452233Z' while content on disk has modification time of '2022-11-29T15:34:59.3171226Z'
-  Import took 0.003259 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.015964 seconds.
-  path: Assets/Scripts/Pipes.cs
-  artifactKey: Guid(f3dc0bbb0325b404f8fc87b69ca66cfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Pipes.cs using Guid(f3dc0bbb0325b404f8fc87b69ca66cfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000282 seconds
-  ERROR: Build asset version error: assets/scripts/pipes.cs in SourceAssetDB has modification time of '2022-11-29T15:33:59.7452233Z' while content on disk has modification time of '2022-11-29T15:34:59.3171226Z'
-  Import took 0.003522 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.018957 seconds.
-  path: Assets/Scripts/Pipes.cs
-  artifactKey: Guid(f3dc0bbb0325b404f8fc87b69ca66cfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Pipes.cs using Guid(f3dc0bbb0325b404f8fc87b69ca66cfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000390 seconds
-  ERROR: Build asset version error: assets/scripts/pipes.cs in SourceAssetDB has modification time of '2022-11-29T15:33:59.7452233Z' while content on disk has modification time of '2022-11-29T15:34:59.3171226Z'
-  Import took 0.004259 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.014075 seconds.
-  path: Assets/Scripts/Pipes.cs
-  artifactKey: Guid(f3dc0bbb0325b404f8fc87b69ca66cfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Pipes.cs using Guid(f3dc0bbb0325b404f8fc87b69ca66cfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000348 seconds
-  ERROR: Build asset version error: assets/scripts/pipes.cs in SourceAssetDB has modification time of '2022-11-29T15:33:59.7452233Z' while content on disk has modification time of '2022-11-29T15:34:59.3171226Z'
-  Import took 0.004097 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.018668 seconds.
-  path: Assets/Scripts/Pipes.cs
-  artifactKey: Guid(f3dc0bbb0325b404f8fc87b69ca66cfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Pipes.cs using Guid(f3dc0bbb0325b404f8fc87b69ca66cfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000477 seconds
-  ERROR: Build asset version error: assets/scripts/pipes.cs in SourceAssetDB has modification time of '2022-11-29T15:33:59.7452233Z' while content on disk has modification time of '2022-11-29T15:34:59.3171226Z'
-  Import took 0.003921 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.012496 seconds.
-  path: Assets/Scripts/Pipes.cs
-  artifactKey: Guid(f3dc0bbb0325b404f8fc87b69ca66cfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Pipes.cs using Guid(f3dc0bbb0325b404f8fc87b69ca66cfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000396 seconds
-  ERROR: Build asset version error: assets/scripts/pipes.cs in SourceAssetDB has modification time of '2022-11-29T15:33:59.7452233Z' while content on disk has modification time of '2022-11-29T15:34:59.3171226Z'
-  Import took 0.004806 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.015069 seconds.
-  path: Assets/Scripts/Pipes.cs
-  artifactKey: Guid(f3dc0bbb0325b404f8fc87b69ca66cfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Pipes.cs using Guid(f3dc0bbb0325b404f8fc87b69ca66cfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000313 seconds
-  ERROR: Build asset version error: assets/scripts/pipes.cs in SourceAssetDB has modification time of '2022-11-29T15:33:59.7452233Z' while content on disk has modification time of '2022-11-29T15:34:59.3171226Z'
-  Import took 0.002995 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.013347 seconds.
-  path: Assets/Scripts/Pipes.cs
-  artifactKey: Guid(f3dc0bbb0325b404f8fc87b69ca66cfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Pipes.cs using Guid(f3dc0bbb0325b404f8fc87b69ca66cfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000307 seconds
-  ERROR: Build asset version error: assets/scripts/pipes.cs in SourceAssetDB has modification time of '2022-11-29T15:33:59.7452233Z' while content on disk has modification time of '2022-11-29T15:34:59.3171226Z'
-  Import took 0.003320 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.016735 seconds.
-  path: Assets/Scripts/Pipes.cs
-  artifactKey: Guid(f3dc0bbb0325b404f8fc87b69ca66cfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Pipes.cs using Guid(f3dc0bbb0325b404f8fc87b69ca66cfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000380 seconds
-  ERROR: Build asset version error: assets/scripts/pipes.cs in SourceAssetDB has modification time of '2022-11-29T15:33:59.7452233Z' while content on disk has modification time of '2022-11-29T15:34:59.3171226Z'
-  Import took 0.003487 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.014702 seconds.
-  path: Assets/Scripts/Pipes.cs
-  artifactKey: Guid(f3dc0bbb0325b404f8fc87b69ca66cfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Pipes.cs using Guid(f3dc0bbb0325b404f8fc87b69ca66cfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000302 seconds
-  ERROR: Build asset version error: assets/scripts/pipes.cs in SourceAssetDB has modification time of '2022-11-29T15:33:59.7452233Z' while content on disk has modification time of '2022-11-29T15:34:59.3171226Z'
-  Import took 0.004080 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.026712 seconds.
-  path: Assets/Scripts/Pipes.cs
-  artifactKey: Guid(f3dc0bbb0325b404f8fc87b69ca66cfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Pipes.cs using Guid(f3dc0bbb0325b404f8fc87b69ca66cfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000284 seconds
-  ERROR: Build asset version error: assets/scripts/pipes.cs in SourceAssetDB has modification time of '2022-11-29T15:33:59.7452233Z' while content on disk has modification time of '2022-11-29T15:34:59.3171226Z'
-  Import took 0.004092 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.020497 seconds.
-  path: Assets/Scripts/Pipes.cs
-  artifactKey: Guid(f3dc0bbb0325b404f8fc87b69ca66cfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Pipes.cs using Guid(f3dc0bbb0325b404f8fc87b69ca66cfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000377 seconds
-  ERROR: Build asset version error: assets/scripts/pipes.cs in SourceAssetDB has modification time of '2022-11-29T15:33:59.7452233Z' while content on disk has modification time of '2022-11-29T15:34:59.3171226Z'
-  Import took 0.005617 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.019218 seconds.
-  path: Assets/Scripts/Pipes.cs
-  artifactKey: Guid(f3dc0bbb0325b404f8fc87b69ca66cfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Pipes.cs using Guid(f3dc0bbb0325b404f8fc87b69ca66cfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000497 seconds
-  ERROR: Build asset version error: assets/scripts/pipes.cs in SourceAssetDB has modification time of '2022-11-29T15:33:59.7452233Z' while content on disk has modification time of '2022-11-29T15:34:59.3171226Z'
-  Import took 0.004589 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.021897 seconds.
-  path: Assets/Scripts/Pipes.cs
-  artifactKey: Guid(f3dc0bbb0325b404f8fc87b69ca66cfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Pipes.cs using Guid(f3dc0bbb0325b404f8fc87b69ca66cfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000328 seconds
-  ERROR: Build asset version error: assets/scripts/pipes.cs in SourceAssetDB has modification time of '2022-11-29T15:33:59.7452233Z' while content on disk has modification time of '2022-11-29T15:34:59.3171226Z'
-  Import took 0.003634 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.022539 seconds.
-  path: Assets/Scripts/Pipes.cs
-  artifactKey: Guid(f3dc0bbb0325b404f8fc87b69ca66cfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Pipes.cs using Guid(f3dc0bbb0325b404f8fc87b69ca66cfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000375 seconds
-  ERROR: Build asset version error: assets/scripts/pipes.cs in SourceAssetDB has modification time of '2022-11-29T15:33:59.7452233Z' while content on disk has modification time of '2022-11-29T15:34:59.3171226Z'
-  Import took 0.004085 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.215147 seconds.
-  path: Assets/Scripts/Pipes.cs
-  artifactKey: Guid(f3dc0bbb0325b404f8fc87b69ca66cfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Pipes.cs using Guid(f3dc0bbb0325b404f8fc87b69ca66cfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000413 seconds
-  ERROR: Build asset version error: assets/scripts/pipes.cs in SourceAssetDB has modification time of '2022-11-29T15:33:59.7452233Z' while content on disk has modification time of '2022-11-29T15:34:59.3171226Z'
-  Import took 0.004932 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.085379 seconds.
-  path: Assets/Scripts/Pipes.cs
-  artifactKey: Guid(f3dc0bbb0325b404f8fc87b69ca66cfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Pipes.cs using Guid(f3dc0bbb0325b404f8fc87b69ca66cfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000549 seconds
-  ERROR: Build asset version error: assets/scripts/pipes.cs in SourceAssetDB has modification time of '2022-11-29T15:33:59.7452233Z' while content on disk has modification time of '2022-11-29T15:34:59.3171226Z'
-  Import took 0.008119 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.023058 seconds.
-  path: Assets/Scripts/Pipes.cs
-  artifactKey: Guid(f3dc0bbb0325b404f8fc87b69ca66cfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Pipes.cs using Guid(f3dc0bbb0325b404f8fc87b69ca66cfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000395 seconds
-  ERROR: Build asset version error: assets/scripts/pipes.cs in SourceAssetDB has modification time of '2022-11-29T15:33:59.7452233Z' while content on disk has modification time of '2022-11-29T15:34:59.3171226Z'
-  Import took 0.004581 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.016370 seconds.
-  path: Assets/Scripts/Pipes.cs
-  artifactKey: Guid(f3dc0bbb0325b404f8fc87b69ca66cfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Pipes.cs using Guid(f3dc0bbb0325b404f8fc87b69ca66cfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000452 seconds
-  ERROR: Build asset version error: assets/scripts/pipes.cs in SourceAssetDB has modification time of '2022-11-29T15:33:59.7452233Z' while content on disk has modification time of '2022-11-29T15:34:59.3171226Z'
-  Import took 0.003992 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.015410 seconds.
-  path: Assets/Scripts/Pipes.cs
-  artifactKey: Guid(f3dc0bbb0325b404f8fc87b69ca66cfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Pipes.cs using Guid(f3dc0bbb0325b404f8fc87b69ca66cfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000461 seconds
-  ERROR: Build asset version error: assets/scripts/pipes.cs in SourceAssetDB has modification time of '2022-11-29T15:33:59.7452233Z' while content on disk has modification time of '2022-11-29T15:34:59.3171226Z'
-  Import took 0.005104 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.017108 seconds.
-  path: Assets/Scripts/Pipes.cs
-  artifactKey: Guid(f3dc0bbb0325b404f8fc87b69ca66cfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Pipes.cs using Guid(f3dc0bbb0325b404f8fc87b69ca66cfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000314 seconds
-  ERROR: Build asset version error: assets/scripts/pipes.cs in SourceAssetDB has modification time of '2022-11-29T15:33:59.7452233Z' while content on disk has modification time of '2022-11-29T15:34:59.3171226Z'
-  Import took 0.004193 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.014725 seconds.
-  path: Assets/Scripts/Pipes.cs
-  artifactKey: Guid(f3dc0bbb0325b404f8fc87b69ca66cfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Pipes.cs using Guid(f3dc0bbb0325b404f8fc87b69ca66cfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000378 seconds
-  ERROR: Build asset version error: assets/scripts/pipes.cs in SourceAssetDB has modification time of '2022-11-29T15:33:59.7452233Z' while content on disk has modification time of '2022-11-29T15:34:59.3171226Z'
-  Import took 0.004475 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.019185 seconds.
-  path: Assets/Scripts/Pipes.cs
-  artifactKey: Guid(f3dc0bbb0325b404f8fc87b69ca66cfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Pipes.cs using Guid(f3dc0bbb0325b404f8fc87b69ca66cfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000397 seconds
-  ERROR: Build asset version error: assets/scripts/pipes.cs in SourceAssetDB has modification time of '2022-11-29T15:33:59.7452233Z' while content on disk has modification time of '2022-11-29T15:34:59.3171226Z'
-  Import took 0.004008 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.016957 seconds.
-  path: Assets/Scripts/Pipes.cs
-  artifactKey: Guid(f3dc0bbb0325b404f8fc87b69ca66cfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Pipes.cs using Guid(f3dc0bbb0325b404f8fc87b69ca66cfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000282 seconds
-  ERROR: Build asset version error: assets/scripts/pipes.cs in SourceAssetDB has modification time of '2022-11-29T15:33:59.7452233Z' while content on disk has modification time of '2022-11-29T15:34:59.3171226Z'
-  Import took 0.003339 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.017344 seconds.
-  path: Assets/Scripts/Pipes.cs
-  artifactKey: Guid(f3dc0bbb0325b404f8fc87b69ca66cfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Pipes.cs using Guid(f3dc0bbb0325b404f8fc87b69ca66cfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000384 seconds
-  ERROR: Build asset version error: assets/scripts/pipes.cs in SourceAssetDB has modification time of '2022-11-29T15:33:59.7452233Z' while content on disk has modification time of '2022-11-29T15:34:59.3171226Z'
-  Import took 0.004214 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.019956 seconds.
-  path: Assets/Scripts/Pipes.cs
-  artifactKey: Guid(f3dc0bbb0325b404f8fc87b69ca66cfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Pipes.cs using Guid(f3dc0bbb0325b404f8fc87b69ca66cfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000457 seconds
-  ERROR: Build asset version error: assets/scripts/pipes.cs in SourceAssetDB has modification time of '2022-11-29T15:33:59.7452233Z' while content on disk has modification time of '2022-11-29T15:34:59.3171226Z'
-  Import took 0.003622 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.015613 seconds.
-  path: Assets/Scripts/Pipes.cs
-  artifactKey: Guid(f3dc0bbb0325b404f8fc87b69ca66cfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Pipes.cs using Guid(f3dc0bbb0325b404f8fc87b69ca66cfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000501 seconds
-  ERROR: Build asset version error: assets/scripts/pipes.cs in SourceAssetDB has modification time of '2022-11-29T15:33:59.7452233Z' while content on disk has modification time of '2022-11-29T15:34:59.3171226Z'
-  Import took 0.003989 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.017110 seconds.
-  path: Assets/Scripts/Pipes.cs
-  artifactKey: Guid(f3dc0bbb0325b404f8fc87b69ca66cfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Pipes.cs using Guid(f3dc0bbb0325b404f8fc87b69ca66cfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000280 seconds
-  ERROR: Build asset version error: assets/scripts/pipes.cs in SourceAssetDB has modification time of '2022-11-29T15:33:59.7452233Z' while content on disk has modification time of '2022-11-29T15:34:59.3171226Z'
-  Import took 0.003346 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.018107 seconds.
-  path: Assets/Scripts/Pipes.cs
-  artifactKey: Guid(f3dc0bbb0325b404f8fc87b69ca66cfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Pipes.cs using Guid(f3dc0bbb0325b404f8fc87b69ca66cfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000401 seconds
-  ERROR: Build asset version error: assets/scripts/pipes.cs in SourceAssetDB has modification time of '2022-11-29T15:33:59.7452233Z' while content on disk has modification time of '2022-11-29T15:34:59.3171226Z'
-  Import took 0.004731 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.017257 seconds.
-  path: Assets/Scripts/Pipes.cs
-  artifactKey: Guid(f3dc0bbb0325b404f8fc87b69ca66cfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Pipes.cs using Guid(f3dc0bbb0325b404f8fc87b69ca66cfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000488 seconds
-  ERROR: Build asset version error: assets/scripts/pipes.cs in SourceAssetDB has modification time of '2022-11-29T15:33:59.7452233Z' while content on disk has modification time of '2022-11-29T15:34:59.3171226Z'
-  Import took 0.005017 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.014459 seconds.
-  path: Assets/Scripts/Pipes.cs
-  artifactKey: Guid(f3dc0bbb0325b404f8fc87b69ca66cfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Pipes.cs using Guid(f3dc0bbb0325b404f8fc87b69ca66cfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000355 seconds
-  ERROR: Build asset version error: assets/scripts/pipes.cs in SourceAssetDB has modification time of '2022-11-29T15:33:59.7452233Z' while content on disk has modification time of '2022-11-29T15:34:59.3171226Z'
-  Import took 0.004420 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.020507 seconds.
-  path: Assets/Scripts/Pipes.cs
-  artifactKey: Guid(f3dc0bbb0325b404f8fc87b69ca66cfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Pipes.cs using Guid(f3dc0bbb0325b404f8fc87b69ca66cfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000269 seconds
-  ERROR: Build asset version error: assets/scripts/pipes.cs in SourceAssetDB has modification time of '2022-11-29T15:33:59.7452233Z' while content on disk has modification time of '2022-11-29T15:34:59.3171226Z'
-  Import took 0.002995 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.017918 seconds.
-  path: Assets/Scripts/Pipes.cs
-  artifactKey: Guid(f3dc0bbb0325b404f8fc87b69ca66cfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Pipes.cs using Guid(f3dc0bbb0325b404f8fc87b69ca66cfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000387 seconds
-  ERROR: Build asset version error: assets/scripts/pipes.cs in SourceAssetDB has modification time of '2022-11-29T15:33:59.7452233Z' while content on disk has modification time of '2022-11-29T15:34:59.3171226Z'
-  Import took 0.004210 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.014541 seconds.
-  path: Assets/Scripts/Pipes.cs
-  artifactKey: Guid(f3dc0bbb0325b404f8fc87b69ca66cfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Pipes.cs using Guid(f3dc0bbb0325b404f8fc87b69ca66cfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000347 seconds
-  ERROR: Build asset version error: assets/scripts/pipes.cs in SourceAssetDB has modification time of '2022-11-29T15:33:59.7452233Z' while content on disk has modification time of '2022-11-29T15:34:59.3171226Z'
-  Import took 0.003703 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.014542 seconds.
-  path: Assets/Scripts/Pipes.cs
-  artifactKey: Guid(f3dc0bbb0325b404f8fc87b69ca66cfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Pipes.cs using Guid(f3dc0bbb0325b404f8fc87b69ca66cfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000255 seconds
-  ERROR: Build asset version error: assets/scripts/pipes.cs in SourceAssetDB has modification time of '2022-11-29T15:33:59.7452233Z' while content on disk has modification time of '2022-11-29T15:34:59.3171226Z'
-  Import took 0.003137 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.013610 seconds.
-  path: Assets/Scripts/Pipes.cs
-  artifactKey: Guid(f3dc0bbb0325b404f8fc87b69ca66cfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Pipes.cs using Guid(f3dc0bbb0325b404f8fc87b69ca66cfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000244 seconds
-  ERROR: Build asset version error: assets/scripts/pipes.cs in SourceAssetDB has modification time of '2022-11-29T15:33:59.7452233Z' while content on disk has modification time of '2022-11-29T15:34:59.3171226Z'
-  Import took 0.002892 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.015491 seconds.
-  path: Assets/Scripts/Pipes.cs
-  artifactKey: Guid(f3dc0bbb0325b404f8fc87b69ca66cfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Pipes.cs using Guid(f3dc0bbb0325b404f8fc87b69ca66cfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000320 seconds
-  ERROR: Build asset version error: assets/scripts/pipes.cs in SourceAssetDB has modification time of '2022-11-29T15:33:59.7452233Z' while content on disk has modification time of '2022-11-29T15:34:59.3171226Z'
-  Import took 0.003610 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.016864 seconds.
-  path: Assets/Scripts/Pipes.cs
-  artifactKey: Guid(f3dc0bbb0325b404f8fc87b69ca66cfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Pipes.cs using Guid(f3dc0bbb0325b404f8fc87b69ca66cfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000280 seconds
-  ERROR: Build asset version error: assets/scripts/pipes.cs in SourceAssetDB has modification time of '2022-11-29T15:33:59.7452233Z' while content on disk has modification time of '2022-11-29T15:34:59.3171226Z'
-  Import took 0.003112 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.018120 seconds.
-  path: Assets/Scripts/Pipes.cs
-  artifactKey: Guid(f3dc0bbb0325b404f8fc87b69ca66cfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Pipes.cs using Guid(f3dc0bbb0325b404f8fc87b69ca66cfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000263 seconds
-  ERROR: Build asset version error: assets/scripts/pipes.cs in SourceAssetDB has modification time of '2022-11-29T15:33:59.7452233Z' while content on disk has modification time of '2022-11-29T15:34:59.3171226Z'
-  Import took 0.002999 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.015934 seconds.
-  path: Assets/Scripts/Pipes.cs
-  artifactKey: Guid(f3dc0bbb0325b404f8fc87b69ca66cfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Pipes.cs using Guid(f3dc0bbb0325b404f8fc87b69ca66cfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000400 seconds
-  ERROR: Build asset version error: assets/scripts/pipes.cs in SourceAssetDB has modification time of '2022-11-29T15:33:59.7452233Z' while content on disk has modification time of '2022-11-29T15:34:59.3171226Z'
-  Import took 0.003526 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.015052 seconds.
-  path: Assets/Scripts/Pipes.cs
-  artifactKey: Guid(f3dc0bbb0325b404f8fc87b69ca66cfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Pipes.cs using Guid(f3dc0bbb0325b404f8fc87b69ca66cfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000395 seconds
-  ERROR: Build asset version error: assets/scripts/pipes.cs in SourceAssetDB has modification time of '2022-11-29T15:33:59.7452233Z' while content on disk has modification time of '2022-11-29T15:34:59.3171226Z'
-  Import took 0.003720 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.014351 seconds.
-  path: Assets/Scripts/Pipes.cs
-  artifactKey: Guid(f3dc0bbb0325b404f8fc87b69ca66cfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Pipes.cs using Guid(f3dc0bbb0325b404f8fc87b69ca66cfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000298 seconds
-  ERROR: Build asset version error: assets/scripts/pipes.cs in SourceAssetDB has modification time of '2022-11-29T15:33:59.7452233Z' while content on disk has modification time of '2022-11-29T15:34:59.3171226Z'
-  Import took 0.003507 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.016090 seconds.
-  path: Assets/Scripts/Pipes.cs
-  artifactKey: Guid(f3dc0bbb0325b404f8fc87b69ca66cfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Pipes.cs using Guid(f3dc0bbb0325b404f8fc87b69ca66cfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000258 seconds
-  ERROR: Build asset version error: assets/scripts/pipes.cs in SourceAssetDB has modification time of '2022-11-29T15:33:59.7452233Z' while content on disk has modification time of '2022-11-29T15:34:59.3171226Z'
-  Import took 0.003494 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.013734 seconds.
-  path: Assets/Scripts/Pipes.cs
-  artifactKey: Guid(f3dc0bbb0325b404f8fc87b69ca66cfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Pipes.cs using Guid(f3dc0bbb0325b404f8fc87b69ca66cfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000384 seconds
-  ERROR: Build asset version error: assets/scripts/pipes.cs in SourceAssetDB has modification time of '2022-11-29T15:33:59.7452233Z' while content on disk has modification time of '2022-11-29T15:34:59.3171226Z'
-  Import took 0.004773 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.015841 seconds.
-  path: Assets/Scripts/Pipes.cs
-  artifactKey: Guid(f3dc0bbb0325b404f8fc87b69ca66cfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Pipes.cs using Guid(f3dc0bbb0325b404f8fc87b69ca66cfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000255 seconds
-  ERROR: Build asset version error: assets/scripts/pipes.cs in SourceAssetDB has modification time of '2022-11-29T15:33:59.7452233Z' while content on disk has modification time of '2022-11-29T15:34:59.3171226Z'
-  Import took 0.003283 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.014368 seconds.
-  path: Assets/Scripts/Pipes.cs
-  artifactKey: Guid(f3dc0bbb0325b404f8fc87b69ca66cfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Pipes.cs using Guid(f3dc0bbb0325b404f8fc87b69ca66cfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000251 seconds
-  ERROR: Build asset version error: assets/scripts/pipes.cs in SourceAssetDB has modification time of '2022-11-29T15:33:59.7452233Z' while content on disk has modification time of '2022-11-29T15:34:59.3171226Z'
-  Import took 0.002881 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.017595 seconds.
-  path: Assets/Scripts/Pipes.cs
-  artifactKey: Guid(f3dc0bbb0325b404f8fc87b69ca66cfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Pipes.cs using Guid(f3dc0bbb0325b404f8fc87b69ca66cfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000299 seconds
-  ERROR: Build asset version error: assets/scripts/pipes.cs in SourceAssetDB has modification time of '2022-11-29T15:33:59.7452233Z' while content on disk has modification time of '2022-11-29T15:34:59.3171226Z'
-  Import took 0.003532 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.013880 seconds.
-  path: Assets/Scripts/Pipes.cs
-  artifactKey: Guid(f3dc0bbb0325b404f8fc87b69ca66cfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Pipes.cs using Guid(f3dc0bbb0325b404f8fc87b69ca66cfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000409 seconds
-  ERROR: Build asset version error: assets/scripts/pipes.cs in SourceAssetDB has modification time of '2022-11-29T15:33:59.7452233Z' while content on disk has modification time of '2022-11-29T15:34:59.3171226Z'
-  Import took 0.005362 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.014230 seconds.
-  path: Assets/Scripts/Pipes.cs
-  artifactKey: Guid(f3dc0bbb0325b404f8fc87b69ca66cfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Pipes.cs using Guid(f3dc0bbb0325b404f8fc87b69ca66cfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000249 seconds
-  ERROR: Build asset version error: assets/scripts/pipes.cs in SourceAssetDB has modification time of '2022-11-29T15:33:59.7452233Z' while content on disk has modification time of '2022-11-29T15:34:59.3171226Z'
-  Import took 0.002928 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.013793 seconds.
-  path: Assets/Scripts/Pipes.cs
-  artifactKey: Guid(f3dc0bbb0325b404f8fc87b69ca66cfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Pipes.cs using Guid(f3dc0bbb0325b404f8fc87b69ca66cfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000359 seconds
-  ERROR: Build asset version error: assets/scripts/pipes.cs in SourceAssetDB has modification time of '2022-11-29T15:33:59.7452233Z' while content on disk has modification time of '2022-11-29T15:34:59.3171226Z'
-  Import took 0.003278 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.016196 seconds.
-  path: Assets/Scripts/Pipes.cs
-  artifactKey: Guid(f3dc0bbb0325b404f8fc87b69ca66cfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Pipes.cs using Guid(f3dc0bbb0325b404f8fc87b69ca66cfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000245 seconds
-  ERROR: Build asset version error: assets/scripts/pipes.cs in SourceAssetDB has modification time of '2022-11-29T15:33:59.7452233Z' while content on disk has modification time of '2022-11-29T15:34:59.3171226Z'
-  Import took 0.003380 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.014163 seconds.
-  path: Assets/Scripts/Pipes.cs
-  artifactKey: Guid(f3dc0bbb0325b404f8fc87b69ca66cfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Pipes.cs using Guid(f3dc0bbb0325b404f8fc87b69ca66cfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000266 seconds
-  ERROR: Build asset version error: assets/scripts/pipes.cs in SourceAssetDB has modification time of '2022-11-29T15:33:59.7452233Z' while content on disk has modification time of '2022-11-29T15:34:59.3171226Z'
-  Import took 0.003265 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.016726 seconds.
-  path: Assets/Scripts/Pipes.cs
-  artifactKey: Guid(f3dc0bbb0325b404f8fc87b69ca66cfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Pipes.cs using Guid(f3dc0bbb0325b404f8fc87b69ca66cfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000304 seconds
-  ERROR: Build asset version error: assets/scripts/pipes.cs in SourceAssetDB has modification time of '2022-11-29T15:33:59.7452233Z' while content on disk has modification time of '2022-11-29T15:34:59.3171226Z'
-  Import took 0.003414 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.015403 seconds.
-  path: Assets/Scripts/Pipes.cs
-  artifactKey: Guid(f3dc0bbb0325b404f8fc87b69ca66cfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Pipes.cs using Guid(f3dc0bbb0325b404f8fc87b69ca66cfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000255 seconds
-  ERROR: Build asset version error: assets/scripts/pipes.cs in SourceAssetDB has modification time of '2022-11-29T15:33:59.7452233Z' while content on disk has modification time of '2022-11-29T15:34:59.3171226Z'
-  Import took 0.003110 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.020851 seconds.
-  path: Assets/Scripts/Pipes.cs
-  artifactKey: Guid(f3dc0bbb0325b404f8fc87b69ca66cfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Pipes.cs using Guid(f3dc0bbb0325b404f8fc87b69ca66cfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000504 seconds
-  ERROR: Build asset version error: assets/scripts/pipes.cs in SourceAssetDB has modification time of '2022-11-29T15:33:59.7452233Z' while content on disk has modification time of '2022-11-29T15:34:59.3171226Z'
-  Import took 0.003237 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.018494 seconds.
-  path: Assets/Scripts/Pipes.cs
-  artifactKey: Guid(f3dc0bbb0325b404f8fc87b69ca66cfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Pipes.cs using Guid(f3dc0bbb0325b404f8fc87b69ca66cfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000444 seconds
-  ERROR: Build asset version error: assets/scripts/pipes.cs in SourceAssetDB has modification time of '2022-11-29T15:33:59.7452233Z' while content on disk has modification time of '2022-11-29T15:34:59.3171226Z'
-  Import took 0.004030 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.016888 seconds.
-  path: Assets/Scripts/Pipes.cs
-  artifactKey: Guid(f3dc0bbb0325b404f8fc87b69ca66cfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Pipes.cs using Guid(f3dc0bbb0325b404f8fc87b69ca66cfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000230 seconds
-  ERROR: Build asset version error: assets/scripts/pipes.cs in SourceAssetDB has modification time of '2022-11-29T15:33:59.7452233Z' while content on disk has modification time of '2022-11-29T15:34:59.3171226Z'
-  Import took 0.002578 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.014503 seconds.
-  path: Assets/Scripts/Pipes.cs
-  artifactKey: Guid(f3dc0bbb0325b404f8fc87b69ca66cfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Pipes.cs using Guid(f3dc0bbb0325b404f8fc87b69ca66cfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000319 seconds
-  ERROR: Build asset version error: assets/scripts/pipes.cs in SourceAssetDB has modification time of '2022-11-29T15:33:59.7452233Z' while content on disk has modification time of '2022-11-29T15:34:59.3171226Z'
-  Import took 0.003865 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.013328 seconds.
-  path: Assets/Scripts/Pipes.cs
-  artifactKey: Guid(f3dc0bbb0325b404f8fc87b69ca66cfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Pipes.cs using Guid(f3dc0bbb0325b404f8fc87b69ca66cfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000272 seconds
-  ERROR: Build asset version error: assets/scripts/pipes.cs in SourceAssetDB has modification time of '2022-11-29T15:33:59.7452233Z' while content on disk has modification time of '2022-11-29T15:34:59.3171226Z'
-  Import took 0.003455 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.016428 seconds.
-  path: Assets/Scripts/Pipes.cs
-  artifactKey: Guid(f3dc0bbb0325b404f8fc87b69ca66cfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Pipes.cs using Guid(f3dc0bbb0325b404f8fc87b69ca66cfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000452 seconds
-  ERROR: Build asset version error: assets/scripts/pipes.cs in SourceAssetDB has modification time of '2022-11-29T15:33:59.7452233Z' while content on disk has modification time of '2022-11-29T15:34:59.3171226Z'
-  Import took 0.004432 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.014307 seconds.
-  path: Assets/Scripts/Pipes.cs
-  artifactKey: Guid(f3dc0bbb0325b404f8fc87b69ca66cfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Pipes.cs using Guid(f3dc0bbb0325b404f8fc87b69ca66cfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000265 seconds
-  ERROR: Build asset version error: assets/scripts/pipes.cs in SourceAssetDB has modification time of '2022-11-29T15:33:59.7452233Z' while content on disk has modification time of '2022-11-29T15:34:59.3171226Z'
-  Import took 0.002987 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.018230 seconds.
-  path: Assets/Scripts/Pipes.cs
-  artifactKey: Guid(f3dc0bbb0325b404f8fc87b69ca66cfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Pipes.cs using Guid(f3dc0bbb0325b404f8fc87b69ca66cfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000322 seconds
-  ERROR: Build asset version error: assets/scripts/pipes.cs in SourceAssetDB has modification time of '2022-11-29T15:33:59.7452233Z' while content on disk has modification time of '2022-11-29T15:34:59.3171226Z'
-  Import took 0.004059 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.014723 seconds.
-  path: Assets/Scripts/Pipes.cs
-  artifactKey: Guid(f3dc0bbb0325b404f8fc87b69ca66cfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Pipes.cs using Guid(f3dc0bbb0325b404f8fc87b69ca66cfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000284 seconds
-  ERROR: Build asset version error: assets/scripts/pipes.cs in SourceAssetDB has modification time of '2022-11-29T15:33:59.7452233Z' while content on disk has modification time of '2022-11-29T15:34:59.3171226Z'
-  Import took 0.003171 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.018825 seconds.
-  path: Assets/Scripts/Pipes.cs
-  artifactKey: Guid(f3dc0bbb0325b404f8fc87b69ca66cfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Pipes.cs using Guid(f3dc0bbb0325b404f8fc87b69ca66cfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000286 seconds
-  ERROR: Build asset version error: assets/scripts/pipes.cs in SourceAssetDB has modification time of '2022-11-29T15:33:59.7452233Z' while content on disk has modification time of '2022-11-29T15:34:59.3171226Z'
-  Import took 0.003514 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.013808 seconds.
-  path: Assets/Scripts/Pipes.cs
-  artifactKey: Guid(f3dc0bbb0325b404f8fc87b69ca66cfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Pipes.cs using Guid(f3dc0bbb0325b404f8fc87b69ca66cfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000456 seconds
-  ERROR: Build asset version error: assets/scripts/pipes.cs in SourceAssetDB has modification time of '2022-11-29T15:33:59.7452233Z' while content on disk has modification time of '2022-11-29T15:34:59.3171226Z'
-  Import took 0.004433 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.014113 seconds.
-  path: Assets/Scripts/Pipes.cs
-  artifactKey: Guid(f3dc0bbb0325b404f8fc87b69ca66cfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Pipes.cs using Guid(f3dc0bbb0325b404f8fc87b69ca66cfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000394 seconds
-  ERROR: Build asset version error: assets/scripts/pipes.cs in SourceAssetDB has modification time of '2022-11-29T15:33:59.7452233Z' while content on disk has modification time of '2022-11-29T15:34:59.3171226Z'
-  Import took 0.003608 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.017135 seconds.
-  path: Assets/Scripts/Pipes.cs
-  artifactKey: Guid(f3dc0bbb0325b404f8fc87b69ca66cfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Pipes.cs using Guid(f3dc0bbb0325b404f8fc87b69ca66cfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000228 seconds
-  ERROR: Build asset version error: assets/scripts/pipes.cs in SourceAssetDB has modification time of '2022-11-29T15:33:59.7452233Z' while content on disk has modification time of '2022-11-29T15:34:59.3171226Z'
-  Import took 0.002575 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.013986 seconds.
-  path: Assets/Scripts/Pipes.cs
-  artifactKey: Guid(f3dc0bbb0325b404f8fc87b69ca66cfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Pipes.cs using Guid(f3dc0bbb0325b404f8fc87b69ca66cfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000245 seconds
-  ERROR: Build asset version error: assets/scripts/pipes.cs in SourceAssetDB has modification time of '2022-11-29T15:33:59.7452233Z' while content on disk has modification time of '2022-11-29T15:34:59.3171226Z'
-  Import took 0.002850 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.016099 seconds.
-  path: Assets/Scripts/Pipes.cs
-  artifactKey: Guid(f3dc0bbb0325b404f8fc87b69ca66cfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Pipes.cs using Guid(f3dc0bbb0325b404f8fc87b69ca66cfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000471 seconds
-  ERROR: Build asset version error: assets/scripts/pipes.cs in SourceAssetDB has modification time of '2022-11-29T15:33:59.7452233Z' while content on disk has modification time of '2022-11-29T15:34:59.3171226Z'
-  Import took 0.004535 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.013657 seconds.
-  path: Assets/Scripts/Pipes.cs
-  artifactKey: Guid(f3dc0bbb0325b404f8fc87b69ca66cfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Pipes.cs using Guid(f3dc0bbb0325b404f8fc87b69ca66cfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000513 seconds
-  ERROR: Build asset version error: assets/scripts/pipes.cs in SourceAssetDB has modification time of '2022-11-29T15:33:59.7452233Z' while content on disk has modification time of '2022-11-29T15:34:59.3171226Z'
-  Import took 0.003533 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.017361 seconds.
-  path: Assets/Scripts/Pipes.cs
-  artifactKey: Guid(f3dc0bbb0325b404f8fc87b69ca66cfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Pipes.cs using Guid(f3dc0bbb0325b404f8fc87b69ca66cfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000258 seconds
-  ERROR: Build asset version error: assets/scripts/pipes.cs in SourceAssetDB has modification time of '2022-11-29T15:33:59.7452233Z' while content on disk has modification time of '2022-11-29T15:34:59.3171226Z'
-  Import took 0.002884 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.017382 seconds.
-  path: Assets/Scripts/Pipes.cs
-  artifactKey: Guid(f3dc0bbb0325b404f8fc87b69ca66cfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Pipes.cs using Guid(f3dc0bbb0325b404f8fc87b69ca66cfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000300 seconds
-  ERROR: Build asset version error: assets/scripts/pipes.cs in SourceAssetDB has modification time of '2022-11-29T15:33:59.7452233Z' while content on disk has modification time of '2022-11-29T15:34:59.3171226Z'
-  Import took 0.003504 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.015722 seconds.
-  path: Assets/Scripts/Pipes.cs
-  artifactKey: Guid(f3dc0bbb0325b404f8fc87b69ca66cfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Pipes.cs using Guid(f3dc0bbb0325b404f8fc87b69ca66cfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000255 seconds
-  ERROR: Build asset version error: assets/scripts/pipes.cs in SourceAssetDB has modification time of '2022-11-29T15:33:59.7452233Z' while content on disk has modification time of '2022-11-29T15:34:59.3171226Z'
-  Import took 0.002854 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.018540 seconds.
-  path: Assets/Scripts/Pipes.cs
-  artifactKey: Guid(f3dc0bbb0325b404f8fc87b69ca66cfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Pipes.cs using Guid(f3dc0bbb0325b404f8fc87b69ca66cfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000359 seconds
-  ERROR: Build asset version error: assets/scripts/pipes.cs in SourceAssetDB has modification time of '2022-11-29T15:33:59.7452233Z' while content on disk has modification time of '2022-11-29T15:34:59.3171226Z'
-  Import took 0.003149 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.013147 seconds.
-  path: Assets/Scripts/Pipes.cs
-  artifactKey: Guid(f3dc0bbb0325b404f8fc87b69ca66cfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Pipes.cs using Guid(f3dc0bbb0325b404f8fc87b69ca66cfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000361 seconds
-  ERROR: Build asset version error: assets/scripts/pipes.cs in SourceAssetDB has modification time of '2022-11-29T15:33:59.7452233Z' while content on disk has modification time of '2022-11-29T15:34:59.3171226Z'
-  Import took 0.003634 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.016251 seconds.
-  path: Assets/Scripts/Pipes.cs
-  artifactKey: Guid(f3dc0bbb0325b404f8fc87b69ca66cfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Pipes.cs using Guid(f3dc0bbb0325b404f8fc87b69ca66cfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000244 seconds
-  ERROR: Build asset version error: assets/scripts/pipes.cs in SourceAssetDB has modification time of '2022-11-29T15:33:59.7452233Z' while content on disk has modification time of '2022-11-29T15:34:59.3171226Z'
-  Import took 0.002791 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.015280 seconds.
-  path: Assets/Scripts/Pipes.cs
-  artifactKey: Guid(f3dc0bbb0325b404f8fc87b69ca66cfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Pipes.cs using Guid(f3dc0bbb0325b404f8fc87b69ca66cfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000251 seconds
-  ERROR: Build asset version error: assets/scripts/pipes.cs in SourceAssetDB has modification time of '2022-11-29T15:33:59.7452233Z' while content on disk has modification time of '2022-11-29T15:34:59.3171226Z'
-  Import took 0.002870 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.016616 seconds.
-  path: Assets/Scripts/Pipes.cs
-  artifactKey: Guid(f3dc0bbb0325b404f8fc87b69ca66cfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Pipes.cs using Guid(f3dc0bbb0325b404f8fc87b69ca66cfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000342 seconds
-  ERROR: Build asset version error: assets/scripts/pipes.cs in SourceAssetDB has modification time of '2022-11-29T15:33:59.7452233Z' while content on disk has modification time of '2022-11-29T15:34:59.3171226Z'
-  Import took 0.003358 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.014221 seconds.
-  path: Assets/Scripts/Pipes.cs
-  artifactKey: Guid(f3dc0bbb0325b404f8fc87b69ca66cfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Pipes.cs using Guid(f3dc0bbb0325b404f8fc87b69ca66cfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000392 seconds
-  ERROR: Build asset version error: assets/scripts/pipes.cs in SourceAssetDB has modification time of '2022-11-29T15:33:59.7452233Z' while content on disk has modification time of '2022-11-29T15:34:59.3171226Z'
-  Import took 0.003443 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.017000 seconds.
-  path: Assets/Scripts/Pipes.cs
-  artifactKey: Guid(f3dc0bbb0325b404f8fc87b69ca66cfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Pipes.cs using Guid(f3dc0bbb0325b404f8fc87b69ca66cfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000271 seconds
-  ERROR: Build asset version error: assets/scripts/pipes.cs in SourceAssetDB has modification time of '2022-11-29T15:33:59.7452233Z' while content on disk has modification time of '2022-11-29T15:34:59.3171226Z'
-  Import took 0.002770 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.015430 seconds.
-  path: Assets/Scripts/Pipes.cs
-  artifactKey: Guid(f3dc0bbb0325b404f8fc87b69ca66cfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Pipes.cs using Guid(f3dc0bbb0325b404f8fc87b69ca66cfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000265 seconds
-  ERROR: Build asset version error: assets/scripts/pipes.cs in SourceAssetDB has modification time of '2022-11-29T15:33:59.7452233Z' while content on disk has modification time of '2022-11-29T15:34:59.3171226Z'
-  Import took 0.003050 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.017814 seconds.
-  path: Assets/Scripts/Pipes.cs
-  artifactKey: Guid(f3dc0bbb0325b404f8fc87b69ca66cfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Pipes.cs using Guid(f3dc0bbb0325b404f8fc87b69ca66cfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000271 seconds
-  ERROR: Build asset version error: assets/scripts/pipes.cs in SourceAssetDB has modification time of '2022-11-29T15:33:59.7452233Z' while content on disk has modification time of '2022-11-29T15:34:59.3171226Z'
-  Import took 0.003052 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.015679 seconds.
-  path: Assets/Scripts/Pipes.cs
-  artifactKey: Guid(f3dc0bbb0325b404f8fc87b69ca66cfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Pipes.cs using Guid(f3dc0bbb0325b404f8fc87b69ca66cfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000246 seconds
-  ERROR: Build asset version error: assets/scripts/pipes.cs in SourceAssetDB has modification time of '2022-11-29T15:33:59.7452233Z' while content on disk has modification time of '2022-11-29T15:34:59.3171226Z'
-  Import took 0.002603 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.038464 seconds.
-  path: Assets/Scripts/Pipes.cs
-  artifactKey: Guid(f3dc0bbb0325b404f8fc87b69ca66cfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Pipes.cs using Guid(f3dc0bbb0325b404f8fc87b69ca66cfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e17a0c48f56907798d4cc475ded7a62') in 0.006984 seconds
-  Import took 0.019658 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000835 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.42 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.750 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.31 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1807 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 88.1 MB.
-System memory in use after: 88.1 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2274.
-Total: 2.006700 ms (FindLiveObjects: 0.166700 ms CreateObjectMapping: 0.063100 ms MarkObjects: 1.669600 ms  DeleteObjects: 0.106600 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000747 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.31 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.756 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.32 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1807 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 88.1 MB.
-System memory in use after: 88.1 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2278.
-Total: 1.621500 ms (FindLiveObjects: 0.160100 ms CreateObjectMapping: 0.061800 ms MarkObjects: 1.310400 ms  DeleteObjects: 0.088500 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 117.969228 seconds.
-  path: Assets/Scripts/Pipes.cs
-  artifactKey: Guid(f3dc0bbb0325b404f8fc87b69ca66cfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Pipes.cs using Guid(f3dc0bbb0325b404f8fc87b69ca66cfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7c4a82880eb0bd4573668d45da643ad') in 0.003924 seconds
-  Import took 0.006701 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.011542 seconds.
-  path: Assets/Scripts/Pipes.cs
-  artifactKey: Guid(f3dc0bbb0325b404f8fc87b69ca66cfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Pipes.cs using Guid(f3dc0bbb0325b404f8fc87b69ca66cfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7c4a82880eb0bd4573668d45da643ad') in 0.001884 seconds
-  Import took 0.004701 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000879 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.33 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.743 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.34 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1807 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 88.2 MB.
-System memory in use after: 88.1 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2282.
-Total: 1.788500 ms (FindLiveObjects: 0.168400 ms CreateObjectMapping: 0.061200 ms MarkObjects: 1.464200 ms  DeleteObjects: 0.093900 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 148.618947 seconds.
-  path: Assets/Scripts/Pipes.cs
-  artifactKey: Guid(f3dc0bbb0325b404f8fc87b69ca66cfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Pipes.cs using Guid(f3dc0bbb0325b404f8fc87b69ca66cfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8589f27194a35811ae8210d33940eaa') in 0.004097 seconds
-  Import took 0.006542 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000875 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.32 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.751 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.31 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1807 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 88.2 MB.
-System memory in use after: 88.1 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2286.
-Total: 1.906100 ms (FindLiveObjects: 0.164300 ms CreateObjectMapping: 0.061000 ms MarkObjects: 1.587200 ms  DeleteObjects: 0.092700 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000728 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.33 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.750 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.34 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1807 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 88.2 MB.
-System memory in use after: 88.2 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2290.
-Total: 2.182900 ms (FindLiveObjects: 0.169200 ms CreateObjectMapping: 0.056500 ms MarkObjects: 1.768700 ms  DeleteObjects: 0.187700 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001096 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.31 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.730 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.32 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1807 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 88.2 MB.
-System memory in use after: 88.2 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2294.
-Total: 1.819800 ms (FindLiveObjects: 0.171500 ms CreateObjectMapping: 0.064600 ms MarkObjects: 1.487000 ms  DeleteObjects: 0.095900 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001381 seconds.
+Registered in 0.000798 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.36 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.807 seconds
+- Completed reload, in  0.792 seconds
 Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.32 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1807 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 88.2 MB.
-System memory in use after: 88.2 MB.
+System memory in use before: 85.0 MB.
+System memory in use after: 85.0 MB.
 
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2298.
-Total: 2.873900 ms (FindLiveObjects: 0.178200 ms CreateObjectMapping: 0.056100 ms MarkObjects: 2.480800 ms  DeleteObjects: 0.157900 ms)
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2259.
+Total: 1.667800 ms (FindLiveObjects: 0.171200 ms CreateObjectMapping: 0.066600 ms MarkObjects: 1.343500 ms  DeleteObjects: 0.085700 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Scripts/Spawner.cs
+  artifactKey: Guid(2bdea1d554c6884468b6048df1e323dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Spawner.cs using Guid(2bdea1d554c6884468b6048df1e323dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ad8187ef27d1b83e15ed75f0968d44d') in 0.029155 seconds
+  Import took 0.033289 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000903 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.40 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.857 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.35 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1807 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 85.0 MB.
+System memory in use after: 85.0 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2263.
+Total: 1.699700 ms (FindLiveObjects: 0.172400 ms CreateObjectMapping: 0.073600 ms MarkObjects: 1.361100 ms  DeleteObjects: 0.091800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001354 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.68 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.891 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.39 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1807 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 85.1 MB.
+System memory in use after: 85.0 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2267.
+Total: 4.714100 ms (FindLiveObjects: 0.405500 ms CreateObjectMapping: 0.392000 ms MarkObjects: 3.778300 ms  DeleteObjects: 0.136700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000794 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.38 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.740 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.32 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1807 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 85.0 MB.
+System memory in use after: 85.0 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2271.
+Total: 1.682500 ms (FindLiveObjects: 0.167300 ms CreateObjectMapping: 0.060100 ms MarkObjects: 1.361400 ms  DeleteObjects: 0.093100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001341 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.35 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.091 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.35 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1807 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 85.1 MB.
+System memory in use after: 85.0 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2275.
+Total: 1.716200 ms (FindLiveObjects: 0.179600 ms CreateObjectMapping: 0.065600 ms MarkObjects: 1.373600 ms  DeleteObjects: 0.096500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000795 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.32 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.725 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.65 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1807 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 85.1 MB.
+System memory in use after: 85.0 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2279.
+Total: 1.979900 ms (FindLiveObjects: 0.324000 ms CreateObjectMapping: 0.097400 ms MarkObjects: 1.446700 ms  DeleteObjects: 0.110500 ms)
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
